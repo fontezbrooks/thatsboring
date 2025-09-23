@@ -1,0 +1,2 @@
+# thatsboring
+Writer MCP Server

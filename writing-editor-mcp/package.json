@@ -1,0 +1,28 @@
+{
+  "name": "writing-editor-mcp",
+  "version": "1.0.0",
+  "description": "Academic/technical writing editor MCP server with comprehensive rule enforcement",
+  "main": "dist/server.js",
+  "bin": {
+    "writing-editor": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "natural": "^6.10.0",
+    "compromise": "^14.10.0",
+    "text-readability": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

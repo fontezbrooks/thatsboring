@@ -1,6 +1,4 @@
-# thatsboring(WIP)
-
-## Writing Editor MCP Server
+# Writing Editor MCP Server
 
 A comprehensive MCP (Model Context Protocol) server for academic and technical writing that automatically enforces writing rules and best practices.
 
